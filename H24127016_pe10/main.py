@@ -111,6 +111,7 @@ mainSurface = pygame.display.set_mode((816, 624))
 pygame.display.set_caption("Snake")
 
 game = Game(mainSurface)
+print("Have a nice summer")
 game.run()
 
 pygame.quit()
